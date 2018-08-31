@@ -8,11 +8,11 @@ int main()
 {
 	mat A,B, C ;
 
-  A << 0.732 << 1.4142 << endr
-    << 10.87 << 3.028 << endr;
+  A << 2/2 << 1/2 << endr
+    << 4/3 << 1/6 << endr;
 
-  B << 25 << endr
-    << 0.75 << endr;
+  B << 34/2 << endr
+    << 11/2 << endr;
 
    C = inv(A)*B;
 
