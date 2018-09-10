@@ -3,8 +3,8 @@ unset label
 set xtic auto
 set ytic auto
 set title "Tarea delfinA"
-set xlabel "x"
-set ylabel "y"
+set xlabel "m/s"
+set ylabel "tiempo"
 #set xrange [10:45]
 #set yrange [1:70]
 set grid
