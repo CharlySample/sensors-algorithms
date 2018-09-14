@@ -104,9 +104,9 @@ int main()
 
     valores.regresiones();
 
-  //  valores.xt.print("\n matriz xt: ");
+    valores.xt.print("\n matriz xt: ");
 
-  //  valores.yt.print("\n matriz yt: ");
+    valores.yt.print("\n matriz yt: ");
 
   // valores.at.print("\n matriz at: ");
 

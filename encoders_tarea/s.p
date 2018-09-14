@@ -1,8 +1,8 @@
-set multiplot layout 2, 2
+set multiplot layout 2, 2 title"Desplazamiento"
 set yrange[0:40]
 set xrange[0:10]
 set xlabel "t(s)"
-set ylabel "rad"
+set ylabel "m"
 f6(x) = -0.258550*x**0+20.734243*x**1-38.680677*x**2+27.072841*x**3-7.725501*x**4+0.975784*x**5-0.045473*x**6 
 f4(x) = 1.978753*x**0-11.475828*x**1+12.163039*x**2-2.512468*x**3+0.155875*x**4
 f3(x) = -0.271123*x**0+0.191685*x**1+3.150704*x**2-0.356834*x**3
