@@ -15,7 +15,7 @@ public:
 	string polinomio;
 
 	mat A,at,yt,xt,desp;
-	
+
 	void regresiones()
 	{
 		tama=grado+1;
@@ -69,7 +69,7 @@ public:
 
 
 		}
-	
+
 };
 
 int main()

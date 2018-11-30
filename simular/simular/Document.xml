@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="0.17R13528 (Git)" FileVersion="1">
+    <Properties Count="14">
+        <Property name="Comment" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Company" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="CreatedBy" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="CreationDate" type="App::PropertyString">
+            <String value="2018-10-18T17:44:26Z"/>
+        </Property>
+        <Property name="Id" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Label" type="App::PropertyString">
+            <String value="simular"/>
+        </Property>
+        <Property name="LastModifiedBy" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="LastModifiedDate" type="App::PropertyString">
+            <String value="2018-10-18T17:44:59Z"/>
+        </Property>
+        <Property name="License" type="App::PropertyString">
+            <String value="All rights reserved"/>
+        </Property>
+        <Property name="LicenseURL" type="App::PropertyString">
+            <String value="http://en.wikipedia.org/wiki/All_rights_reserved"/>
+        </Property>
+        <Property name="Material" type="App::PropertyMap">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="Meta" type="App::PropertyMap">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="TipName" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Uid" type="App::PropertyUUID">
+            <Uuid value="cedaec7a-13fd-4bde-8d18-e05f4aaf446b"/>
+        </Property>
+    </Properties>
+    <Objects Count="0">
+    </Objects>
+    <ObjectData Count="0">
+    </ObjectData>
+</Document>

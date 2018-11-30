@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('trav1.STEP',
+    '2018-10-18T23:23:52',
+    ( 'icarlosj9@hotmail.com' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2018',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #8 ) ;
+#2 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#3 = PRODUCT_DEFINITION ( 'UNKNOWN', '', #7, #9 ) ;
+#4 = PRODUCT_CONTEXT ( 'NONE', #8, 'mechanical' ) ;
+#5 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #6 ) ) ;
+#6 = PRODUCT ( 'trav1', 'trav1', '', ( #4 ) ) ;
+#7 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ANY', '', #6, .NOT_KNOWN. ) ;
+#8 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#9 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #2, 'design' ) ;
+#10 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #2 ) ;
+#11 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #3 ) ;
+ENDSEC;
+END-ISO-10303-21;

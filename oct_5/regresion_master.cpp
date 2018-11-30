@@ -15,7 +15,7 @@ public:
 	string polinomio;
 
 	mat A,at,yt,xt,desp;
-	
+
 	void regresiones()
 	{
 		tama=grado+1;
@@ -69,7 +69,7 @@ public:
 
 
 		}
-	
+
 };
 
 int main()
@@ -82,10 +82,11 @@ int main()
   //  cout << "Introduzca nombre del arhivo a guardar asi como su extension: " << endl;
 //    getline(cin,datos);
 
-   A.load("tabla.txt", arma_ascii);
+   A.load("tablapoli.txt", arma_ascii);
 
-    cout << "\nIntroduce Numero n: ";
-    cin >> valores.n;
+ //   cout << "\nIntroduce Numero n: ";
+//    cin >> valores.n;
+    valores.n = A.n_rows()-1;
     cout << "\nIntroduce columna de x: ";
     cin >> valores.x;
     cout << "\nIntroduce columna de y: ";
@@ -116,7 +117,7 @@ int main()
     cout << "\nPolinomio obtenido: ";
 
 ////////////////////////////// Ciclo for para imprimir polinomio a obtenido para ingresar en gnuplot /////////////////////////////////
-    for(int i=0;i<grado+1;i++)
+ /*   for(int i=0;i<grado+1;i++)
     {
     		if(i>=1 and valores.at(i,0) >= 0)
     			valores.polinomio += "+";
@@ -124,7 +125,17 @@ int main()
 			valores.polinomio += to_string(valores.at(i,0));
 			valores.polinomio += "*x**";
 			valores.polinomio += to_string(i);
+	}*/
+
+ for(int i=0;i<grado+1;i++)
+    {
+    		if(i>=1 and valores.at(i,0) > 0)
+    			cout << "+" <<valores.at(i,0) << "*pow(th," << i << ")"; 
+                      else
+			cout << valores.at(i,0) << "*pow(th," << i << ")";
 	}
+
+
 
     cout << valores.polinomio << endl;
 

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see http://www.freecadweb.org for more information...
+-->
+<Document SchemaVersion="1">
+    <ViewProviderData Count="0">
+    </ViewProviderData>
+    <Camera settings="  OrthographicCamera {   viewportMapping ADJUST_CAMERA   position 0 0 1   orientation 0 0 1  0   aspectRatio 1   focalDistance 5   height 4.1421356  } "/>
+</Document>
